@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "netfix",
+  "version": "${version}",
+  "name": "netfix",
+  "description": "Network fixes for Java 17+",
+  "license": "Proprietary",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "netfix.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "~1.8.9",
+    "java": ">=17"
+  }
+}
